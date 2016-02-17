@@ -1,8 +1,5 @@
 package Diamond;
 
-/**
- * Created by sceli on 2/17/16.
- */
 public class DiamondLauncher {
     public static void main(String[] args) {
         Diamond diamondLauncher = new Diamond();

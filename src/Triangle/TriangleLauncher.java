@@ -1,7 +1,5 @@
 package Triangle;
 
-import Triangle.Triangle;
-
 public class TriangleLauncher {
     public static void main (String[] args) {
         Triangle triangleLauncher = new Triangle();
