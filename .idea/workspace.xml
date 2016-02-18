@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d642807f-9357-4c9c-a816-ad396d0292b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWU/FizzBuzz/FizzBuzz.class" afterPath="$PROJECT_DIR$/out/production/TWU/FizzBuzz/FizzBuzz.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWU/FizzBuzz/FizzBuzzLauncher.class" afterPath="$PROJECT_DIR$/out/production/TWU/FizzBuzz/FizzBuzzLauncher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWU/PrimeFactors/PrimeFactors.class" afterPath="$PROJECT_DIR$/out/production/TWU/PrimeFactors/PrimeFactors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWU/PrimeFactors/PrimeFactorsLauncher.class" afterPath="$PROJECT_DIR$/out/production/TWU/PrimeFactors/PrimeFactorsLauncher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/TWU/FizzBuzz/FizzBuzzTest.class" afterPath="$PROJECT_DIR$/out/test/TWU/FizzBuzz/FizzBuzzTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrimeFactors/PrimeFactors.java" afterPath="$PROJECT_DIR$/src/PrimeFactors/PrimeFactors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrimeFactors/PrimeFactorsLauncher.java" afterPath="$PROJECT_DIR$/src/PrimeFactors/PrimeFactorsLauncher.java" />
     </list>
     <ignored path="Introductory Programming Exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +49,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19911504">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.29867256">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -1081,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19911504">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.29867256">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
           <folding />
         </state>
       </provider>
