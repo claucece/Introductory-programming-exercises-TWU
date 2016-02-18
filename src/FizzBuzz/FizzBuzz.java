@@ -4,7 +4,7 @@ public class FizzBuzz {
 
     private final static int SIZE = 100;
 
-    public static void defineConditionals(int i) {
+    public void defineConditionals(int i) {
         if (i % 3 == 0 && i % 5 == 0) {
             System.out.println("Fizz Buzz");
         } else if (i % 5 == 0) {
@@ -16,7 +16,7 @@ public class FizzBuzz {
         }
     }
 
-    public static int startGame() {
+    public int startGame() {
         for (int i = 1; i <= SIZE; i++) {
             defineConditionals(i);
         }

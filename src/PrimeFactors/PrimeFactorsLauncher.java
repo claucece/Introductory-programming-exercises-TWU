@@ -2,8 +2,8 @@ package PrimeFactors;
 
 public class PrimeFactorsLauncher {
     public static void main(String[] args) {
-        PrimeFactors primeFactosLauncher = new PrimeFactors();
+        PrimeFactors primeFactorsLauncher = new PrimeFactors();
             System.out.println("Let's print bla");
-            primeFactosLauncher.generatePrimes(30);
+            primeFactorsLauncher.generatePrimes(30);
         }
     }
