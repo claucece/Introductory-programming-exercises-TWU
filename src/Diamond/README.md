@@ -1,8 +1,11 @@
 # Diamond Exercises
 
 1. Easiest exercise ever:
+
    Print one asterisk to the console.
+
    Example:
+
    `*`
 
 
