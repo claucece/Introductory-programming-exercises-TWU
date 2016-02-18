@@ -1,13 +1,13 @@
 # Diamond Exercises
 
-1. Given a number n, print a centered triangle. Example for n=3: *
+1. Easiest exercise ever:
 
+   Print one asterisk to the console.
 
-   Example for n=3:
+   Example:
 
-       *
-      ***
-     *****
+   `*`
+
 
    ------------------------
 
