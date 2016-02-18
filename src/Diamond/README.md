@@ -20,6 +20,8 @@
 
    `********`
 
+    ------------------------
+
 3. Draw a vertical line:
 
    Given a number n, print n lines, each with one asterisks
@@ -32,6 +34,17 @@
 
    `*`
 
+   ------------------------
 
-Draw a right triangle Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.)
+4. Draw a right triangle:
+
+   Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.)
+
+   Example:
+
+   `*`
+
+   `**`
+
+   `***`
 
