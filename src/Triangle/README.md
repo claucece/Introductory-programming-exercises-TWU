@@ -1,4 +1,4 @@
-# Diamond Exercises
+# Triangle Exercises
 
 1. Easiest exercise ever:
 
