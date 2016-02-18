@@ -31,34 +31,26 @@
 
      `_***`
 
-      `__*`
+     `__*`
 
     ------------------------
 
-3. Draw a vertical line:
+3. Diamond with name:
 
-   Given a number n, print n lines, each with one asterisks
+   Given a number n, print a centered diamond with your name in place of the middle line.
 
    Example when n=3:
 
-   `*`
+   `__*`
 
-   `*`
+   `_***`
 
-   `*`
+   `Bill`
+
+   `_***`
+
+   `__*`
 
    ------------------------
 
-4. Draw a right triangle:
-
-   Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on
-   the second,etc.)
-
-   Example:
-
-   `*`
-
-   `**`
-
-   `***`
 
