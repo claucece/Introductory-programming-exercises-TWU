@@ -1,13 +1,11 @@
 # Diamond Exercises
 
->1. Easiest exercise ever: Print one asterisk to the console.
-
->Example:
-
->`*`
+1. Easiest exercise ever: Print one asterisk to the console.
+Example:
+`*`
 
 
->2. Draw a horizontal line: Given a number n, print n asterisks on one line.
+2. Draw a horizontal line: Given a number n, print n asterisks on one line.
 
 Draw a vertical line Given a number n, print n lines, each with one asterisks
 
