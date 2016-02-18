@@ -5,7 +5,6 @@ public class Diamond {
     private int base;
     private int asterisk;
     private int space;
-    private String name;
 
     public int defineBase(int height) {
         base = (2 * height) - 1;
@@ -61,7 +60,7 @@ public class Diamond {
 
     public void drawDiamond(int height) {
         drawFirstTriangle(height);
-        int minus = defineMinus(height);
+        defineMinus(height);
         drawSecondTriangle(height);
     }
 
