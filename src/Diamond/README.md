@@ -9,7 +9,15 @@
    `*`
 
 
-2. Draw a horizontal line: Given a number n, print n asterisks on one line.
+   ------------------------
+
+
+2. Draw a horizontal line:
+
+   Given a number n, print n asterisks on one line.
+
+   Example when n=8:
+   `********`
 
 Draw a vertical line Given a number n, print n lines, each with one asterisks
 
