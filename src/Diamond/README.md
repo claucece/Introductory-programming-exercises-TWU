@@ -1,24 +1,37 @@
 # Diamond Exercises
 
-1. Given a number n, print a centered triangle. Example for n=3: *
+1. Isosceles Triangle
+
+   Given a number n, print a centered triangle. Example for n=3: *
 
 
    Example for n=3:
 
       `*`
+
      `***`
+
     `*****`
+
 
    ------------------------
 
 
-2. Draw a horizontal line:
+2. Diamond
 
-   Given a number n, print n asterisks on one line.
+   Given a number n, print a centered diamond.
 
-   Example when n=8:
+   Example when n=3:
 
-   `********`
+      `*`
+
+     `***`
+
+    `*****`
+
+     `***`
+
+      `*`
 
     ------------------------
 
