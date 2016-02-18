@@ -13,7 +13,7 @@ public class PrimeFactors {
 
     public List<Integer> generatePrimes(int number) {
         for (int i = 2; i <= number; i++) {
-            if (number % i == 0) {
+            while (number % i == 0) {
                 primeList.add(i);
                 number /= i;
             }
