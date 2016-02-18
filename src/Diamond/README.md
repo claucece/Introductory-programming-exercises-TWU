@@ -38,7 +38,8 @@
 
 4. Draw a right triangle:
 
-   Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.)
+   Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on
+   the second,etc.)
 
    Example:
 

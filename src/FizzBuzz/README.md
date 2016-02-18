@@ -1,6 +1,7 @@
 # FizzBuzz Exercise
 
-FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain rules.
+FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain
+rules.
 
 __Rules__
 
