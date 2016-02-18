@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by sceli on 2/17/16.
- */
 public class FizzBuzzTest {
 
     FizzBuzz fizzBuzzTest;
