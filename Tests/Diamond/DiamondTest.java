@@ -3,11 +3,15 @@ package Diamond;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 import static org.junit.Assert.*;
 
 public class DiamondTest {
 
     Diamond diamondTest;
+    final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
     public void setUp() {
@@ -45,4 +49,38 @@ public class DiamondTest {
         assertEquals(diamondTest.drawName("Sofia"), "Sofia");
     }
 
+    @Test
+    public void shouldPrintTriangle() {
+        System.setOut(new PrintStream(outContent));
+        String testWelcome = "  *\n" +
+                " ***\n" +
+                "*****" +
+                "\n";
+        diamondTest.drawFirstTriangle(3);
+        assertEquals(testWelcome, outContent.toString());
+    }
+
+    @Test
+    public void shouldPrintDiamond() {
+        System.setOut(new PrintStream(outContent));
+        String testWelcome = "  *\n" +
+                " ***\n" +
+                "*****\n" +
+                " ***\n" +
+                "  *\n";
+        diamondTest.drawDiamond(3);
+        assertEquals(testWelcome, outContent.toString());
+    }
+
+    @Test
+    public void shouldPrintNameInDiamond() {
+        System.setOut(new PrintStream(outContent));
+        String testWelcome = " *\n" +
+                "***\n" +
+                "Bill\n" +
+                "***\n" +
+                " *\n";
+        diamondTest.drawNameInDiamond(3, "Bill");
+        assertEquals(testWelcome, outContent.toString());
+    }
 }
