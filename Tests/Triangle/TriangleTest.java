@@ -2,10 +2,14 @@ package Triangle;
 
 import org.junit.Test;
 import org.junit.Before;
+
+import java.io.ByteArrayOutputStream;
+
 import static org.junit.Assert.*;
 
 public class TriangleTest {
 
+    final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     Triangle triangleTest;
 
     @Before
@@ -27,4 +31,5 @@ public class TriangleTest {
     public void ShouldPrintTriangle() {
         assertEquals(triangleTest.printTriangle(5), 5);
     }
+
 }

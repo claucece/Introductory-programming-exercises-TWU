@@ -52,35 +52,35 @@ public class DiamondTest {
     @Test
     public void shouldPrintTriangle() {
         System.setOut(new PrintStream(outContent));
-        String testWelcome = "  *\n" +
+        String testTriangle = "  *\n" +
                 " ***\n" +
                 "*****" +
                 "\n";
         diamondTest.drawFirstTriangle(3);
-        assertEquals(testWelcome, outContent.toString());
+        assertEquals(testTriangle, outContent.toString());
     }
 
     @Test
     public void shouldPrintDiamond() {
         System.setOut(new PrintStream(outContent));
-        String testWelcome = "  *\n" +
+        String testDiamond = "  *\n" +
                 " ***\n" +
                 "*****\n" +
                 " ***\n" +
                 "  *\n";
         diamondTest.drawDiamond(3);
-        assertEquals(testWelcome, outContent.toString());
+        assertEquals(testDiamond, outContent.toString());
     }
 
     @Test
     public void shouldPrintNameInDiamond() {
         System.setOut(new PrintStream(outContent));
-        String testWelcome = " *\n" +
+        String testNameDiamond = " *\n" +
                 "***\n" +
                 "Bill\n" +
                 "***\n" +
                 " *\n";
         diamondTest.drawNameInDiamond(3, "Bill");
-        assertEquals(testWelcome, outContent.toString());
+        assertEquals(testNameDiamond, outContent.toString());
     }
 }
